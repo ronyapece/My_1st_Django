@@ -1,0 +1,4 @@
+from sharad_app.models import Tasklist
+
+task = Tasklist.object.all
+print(task)
